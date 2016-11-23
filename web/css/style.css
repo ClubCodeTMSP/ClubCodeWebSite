@@ -1,0 +1,157 @@
+.navbar .tab, .navbar   a, .navbar li, .navbar .active{
+    background: none !important;
+    color: white !important;
+}
+
+#equipePresentation ul{
+    list-style:none;
+}
+
+footer img{
+    height: 3.5em;
+
+}
+
+.affiche_accueil{
+    width: 100%;
+    display: block;
+    margin: auto !important;
+}
+
+.btn{
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: rgb(00,43,54);
+    background-color: rgb(84,72,104);
+    color: black;
+    font-weight: bold;
+    box-shadow: 4px 4px 2px black !important;
+}
+header, footer,  .navbar li ul {
+    color: white !important;
+    background-color: rgb(00,43,54) !important;
+}
+
+.dateAndPlace{
+    font-size: 1.1em;
+    font-style: italic;
+}
+
+#logo_header{
+    padding-top: 0;
+    margin-right: 0.7em;
+    margin-bottom: 0.7em;
+    height: 2.5em;
+    width: 2.5em;
+    display: inline-block;
+}
+
+@media (max-width: 30em) {
+    #logo_header{
+        height: 2em;
+        width: 2em;
+    }
+}
+
+#partenaires img{
+    height: 10em;
+}
+
+#calendarTitle{
+    color: white;
+}
+body{
+    background-color: rgb(07,54,66) !important;
+    color: white;
+}
+
+a, a:focus, a:hover {
+    text-decoration: none;
+}
+.page-header {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.row {
+    margin-right: 0;
+    margin-left: 5px;
+}
+.header {
+    text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    background-color: rgb(00,43,54);
+    margin: 0;
+
+}
+.navbar {
+    font-weight: bold;
+    color: white;
+    position: relative;
+    z-index: 200;
+    top: 0;
+    left: 0;
+}
+
+
+.navbar-brand {
+    font-size: 24px;
+}
+.navbar-brand .glyphicon {
+    vertical-align: bottom;
+    font-size: 20px;
+}
+.nav > li[class*="active"] > a {
+    background-color: rgba(0,0,0,0);
+    border-bottom: 2px solid white;
+}
+.nav > li {
+    margin-right: 40px;
+}
+.nav > li > a {
+    padding-bottom: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
+    color: #fff;
+}
+.nav > li > a:hover {
+    background-color: rgba(0,0,0,0);
+    border-bottom: 2px solid rgba(255,255,255,.65);
+    color: #fff;
+}
+.nav > li > a:focus {
+    color: #fff;
+}
+
+/* CAROUSEL */
+.carousel {
+    height: 700px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.carousel-caption {
+    z-index: 10;
+}
+.carousel .item {
+    height: 700px;
+    background-color: #777;
+}
+
+.carousel-inner > .item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 700px;
+}
+.carousel-caption-text {
+    font-size: 20px;
+}
+
+/* PIED DE PAGE */
+footer {
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+
+}
