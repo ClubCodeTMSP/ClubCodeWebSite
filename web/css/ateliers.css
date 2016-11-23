@@ -1,0 +1,117 @@
+/*.navbar-toggle .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background-color: #cccccc;
+  border-radius: 1px;
+}
+*/
+
+.affiche_atelier{
+
+    margin: 0 auto !important;
+    margin-top: 20px;
+    width: 18em !important;
+    border-color: rgb(00,35,40) !important;
+    border-style:  solid !important;
+    border-width: 5px !important;
+    border-radius: 10px;
+}
+
+.affiche_atelier_post{
+    margin: 0 auto !important;
+    margin-top: 20px !important;
+    width: 15em !important;
+    border-color: rgb(00,35,40) !important;
+    border-style:  solid !important;
+    border-width: 5px !important;
+    border-radius: 10px;
+    display: block;
+
+}
+
+@media (max-width: 37em) {
+    .affiche_atelier_post {
+        display: none;
+    }
+}
+
+#logo_header{
+    height: 1.5em;
+    width: 1.5em;
+    display: inline-block;
+}
+
+
+#widget {
+    display: inline-block;
+    overflow: hidden;
+    text-align: left;
+    white-space: nowrap;
+}
+
+
+/*
+ * Globals
+ */
+
+@media (min-width: 48em) {
+    html {
+        font-size: 18px;
+    }
+}
+
+body {
+
+    /* color: #555; */
+    color: white;
+    margin: 0 !important;
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    /* color: #333; */
+    color: wheat;
+}
+
+
+/*
+ * Override Bootstrap's default container.
+ */
+
+.container {
+    max-width: 100rem;
+}
+
+
+/*
+ * Blog name and description
+ */
+
+.blog-header {
+    padding-bottom: 1.25rem;
+    margin-bottom: 2rem;
+    border-bottom: .05rem solid #eee;
+}
+.blog-title {
+    margin-bottom: 0;
+    font-size: 2rem;
+    font-weight: normal;
+}
+.blog-description {
+    font-size: 1.1rem;
+    color: #999;
+}
+
+@media (min-width: 40em) {
+    .blog-title {
+        font-size: 3.5rem;
+    }
+}
+

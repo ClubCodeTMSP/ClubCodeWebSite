@@ -1,0 +1,163 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <div class="container">
+        <div class="blog-header">
+
+            <h1 class="blog-title">Les ateliers</h1>
+
+
+        </div>
+        <div class="row">
+
+            <div class="col-sm-3">
+                <div class="sidebar-module sidebar-module-inset" id="aPropos">
+                    <h4>A propos</h4>
+                    <p> Organisés le jeudi après-midi blab bld nezo hduih oh </p>
+
+                    <input type="button" class="btn" value="Proposer un atelier"  />
+                </div>
+
+                <!-- <div class="sidebar-module">
+                <h4>Barre de recherche</h4>
+                <form>
+      <input type="text" name="search" placeholder="Search..">
+    </form>
+              </div>-->
+                <!--      <div class="sidebar-module">
+                      <h4>Articles Récents</h4>
+                      <ol class="list-unstyled">
+                        <li></li>
+                      </ol>
+                    </div>
+                      <div class="sidebar-module">
+                      <h4>Les plus visités</h4>
+                      <ol class="list-unstyled">
+                        <li></li>
+                      </ol>
+                    </div>-->
+                <div class="sidebar-module">
+                    <h4>Catégories</h4>
+                    <ol class="list-unstyled">
+                        <li><a href="#all">Toutes</a></li>
+                        <li><a href="#web">Développement Web</a></li>
+                        <li><a href="#java">Java</a></li>
+                        <li><a href="#git">Git</a></li>
+                        <li><a href="#python">Python</a></li>
+                        <li><a href="#c_plus">C++</a></li>
+                        <li><a href="#unity">Unity</a></li>
+                        <li><a href="#revisions">Révisions</a></li>
+                    </ol>
+                </div>
+                <!-- <div class="sidebar-module">
+                  <h4>Archives</h4>
+                  <ol class="list-unstyled">
+                    <li><a href="#">November 2016</a></li>
+                    <li><a href="#">October 2016</a></li>
+                    <li><a href="#">September 2016</a></li>
+                    <li><a href="#">Août 2016</a></li>
+                  </ol>
+                </div> -->
+
+
+
+            </div><!-- /.blog-sidebar -->
+
+
+            <div class="col-sm-8 col-md-offset-1">
+
+                <div class="blog-post row web">
+                    <h2 class="blog-post-title">HTML/CSS : Les bases</h2>
+                    <div class="col-sm-7">
+
+                        <p class="blog-post-meta">13 Octobre 2016 par <a href="#">@katou3891, @theyo, @alex</a> dans <a href="#web" >Développement Web</a></p>
+                        <p>Pour créer des sites Web, il est nécessaire de connaître les langages HTML et CSS.  HTML est un langage de balisage permettant de structurer le contenu de vos pages Web, d’inclure des ressources multimédia comme les images ou encore des hyperliens. CSS est un langage qui permet de décrire la présentation, la mise en page, de vos pages.</p>
+                        <p>Ne vous inquiétez pas, ce n’est pas parce qu’il y a deux langages à apprendre que c’est compliqué, c’est au contraire plus simple !</p>
+                        <p><a class="btn  " href="./html_css_les_bases_2015_2016.php" role="button">Article complet &raquo;</a></p>
+                    </div>
+                    <div class="col-sm-5"><img class="affiche_atelier" src="img/affiche_html_css_2016.png" alt="" /></div>
+
+                </div><!-- /.blog-post -->
+                <hr>
+
+                <div class="blog-post row git">
+                    <h2 class="blog-post-title">Git : Les bases</h2>
+                    <div class="col-sm-7">
+
+                        <p class="blog-post-meta">24 Mars 2016 par <a href="#">@sarlam</a> dans <a href="#">Git</a></p>
+
+                        <p> jzaadui bz iufbauidb iqbdnibndeiuz fuiezri nfiuzni bcibcjbjzduhd nudzoqdh oqh doh hqd h Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+
+                        <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+                        <p><a class="btn  " href="./git_les_bases_2015_2016.php" role="button">Article complet &raquo;</a></p>
+                    </div>
+                    <div class="col-sm-5"><img class="affiche_atelier" src="img/affiche_git_2015.png" alt="" /></div>
+
+                </div><!-- /.blog-post -->
+
+                <hr>
+                <div class="blog-post row java revisions">
+                    <h2 class="blog-post-title">Java : Révisions 1A TEM</h2>
+                    <div class="col-sm-7">
+
+                        <p class="blog-post-meta">28 Janvier 2016 par <a href="#">@katou3891</a> dans <a href="#">Révisions</a></p>
+
+                        <p> jzaadui bz iufbauidb iqbdnibndeiuz fuiezri nfiuzni bcibcjbjzduhd nudzoqdh oqh doh hqd h Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+
+                        <p><a class="btn  " href="./java_revisions_TEM_2015_2016.php" role="button">Article complet &raquo;</a></p>
+                    </div>
+                    <div class="col-xs-5"><img class="affiche_atelier" src="./img/affiche_java_revisions_2015.png" alt="" /></div>
+
+                </div><!-- /.blog-post -->
+
+                <hr>
+                <div class="blog-post row cplus">
+                    <h2 class="blog-post-title">C++ : Un pendu</h2>
+                    <div class="col-sm-7">
+
+                        <p class="blog-post-meta">26 Novembre 2015 par <a href="#">@qnope</a> dans <a href="#">C++</a></p>
+
+                        <p> jzaadui bz iufbauidb iqbdnibndeiuz fuiezri nfiuzni bcibcjbjzduhd nudzoqdh oqh doh hqd h Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+
+                        <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+                        <p><a class="btn  " href="./cplus_pendu_2015_2016.php" role="button">Article complet &raquo;</a></p>
+                    </div>
+                    <div class="col-xs-5"><img class="affiche_atelier" src="./img/affiche_cplus_2015.png" alt="" /></div>
+
+                </div><!-- /.blog-post -->
+
+                <hr>
+                <div class="blog-post row python"><!-- blog-post -->
+                    <h2 class="blog-post-title">Un Snake en Python</h2>
+                    <div class="col-sm-7">
+
+                        <p class="blog-post-meta">5 Novembre 2015 par <a href="#">@sarlam</a> dans <a href="#">Python</a></p>
+
+                        <p>This blog post shows a few different types of content that's supported and styled with Bootstrap. Basic typography, images, and code are all supported.</p>
+                        <p>Cum sociis natoque penatibus et magnis ras mattis consectetur purus sit amet fermentum.</p>
+
+                        <p><a class="btn" href="./python_snake_2015_2016.php" role="button">Article complet &raquo;</a></p>
+                    </div>
+                    <div class="col-xs-5"><img class="affiche_atelier" src="./img/affiche_python_2015.png" alt="" /></div>
+
+
+                </div><!-- /.blog-post -->
+
+                <!--  <nav class="blog-pagination">
+                    <a class="btn btn-outline-primary" href="#">Précédent</a>
+                    <a class="btn btn-outline-secondary disabled" href="#">Suivant</a>
+                  </nav> -->
+
+            </div><!-- /.blog-main -->
+
+
+
+        </div><!-- /.row -->
+
+    </div><!-- /.container -->
+
+
+
+
+
+{% endblock %}

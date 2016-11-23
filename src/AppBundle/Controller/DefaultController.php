@@ -17,6 +17,28 @@ class DefaultController extends Controller
      */
     public function indexAction()
     {
-        return $this->render('base.html.twig');
+        return $this->render('default/index.html.twig');
+    }
+
+    /**
+     *
+     *  @Route("/presentation", name="presentation_show")
+     *
+     * @return \Symfony\Component\HttpFoundation\Response
+     */
+    public function showPresentation()
+    {
+        return $this->render('default/presentation.html.twig');
+    }
+
+    /**
+     *
+     *  @Route("/calendrier", name="calendrier_show")
+     *
+     * @return \Symfony\Component\HttpFoundation\Response
+     */
+    public function showCalendar()
+    {
+        return $this->render('default/calendrier.html.twig');
     }
 }
