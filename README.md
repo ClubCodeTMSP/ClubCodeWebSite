@@ -1,4 +1,13 @@
 ClubCodeSiteWeb
 ===============
 
-A Symfony project created on November 19, 2016, 8:29 pm.
+A Symfony project.
+
+Authors :
+-
+
+Katia Récard @katou3891
+
+Théo Moffelein @theyo
+
+
