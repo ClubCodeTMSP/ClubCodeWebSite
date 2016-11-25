@@ -1,0 +1,105 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+<div class="container marketing">
+
+
+
+
+    <!-- START THE FEATURETTES -->
+
+
+
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h1 class="featurette-heading">Make IT Magic c'est... </h1>
+            <p class="lead"> Permettre aux enfants d'&Eacute;vry d'avoir accès à la programmation informatique gratuitement.</p>
+            <h2>Comment ?</h2>
+            <p class="lead">En organisant des ateliers amusants de programmation ouverts à tous dans les médiathèques d'&Eacute;vry.</p>
+        </div>
+        <div class="col-md-5">
+            <img class="featurette-image img-responsive center-block" src="{{ asset('img/logo.png') }}" data-src="holder.js/500x500/auto" alt="Generic placeholder image" >
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+            <h2 class="featurette-heading">5 Ateliers, 3 Médiathèques, plus de 35 Enfants heureux<span class="text-muted"></span></h2>
+            <p class="lead">
+                Nous avons effectué 5 ateliers de 3h chacun, dans les 3 médiathèques
+                les plus importantes d'&Eacute;vry : les médiathèques de:
+            </p>
+            <ul>
+                <li>L'Agora</li>
+                <li>Albert Camus</li>
+                <li>Les Aunettes</li>
+            </ul>
+
+            <p class="lead">
+                Les ateliers étaient divisés en deux parties:
+            </p>
+            <ul>
+                <li>Découverte du logiciel Scratch: les enfants s'amusent en
+                    donnant libre cours à leur imagination afin d'explorer
+                    toutes les fonctionnalités de Scratch.</li>
+                <li>Programmation guidée d'un jeu vidéo: à l'aide de fiches méthodes
+                    et des conseils des membres de l'équipe les enfants créent pas
+                    à pas un jeu tel que le labyrinthe ou le space invader.</li>
+            </ul>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+            <img class="featurette-image img-responsive center-block" src="{{ asset('img/atelier.jpg') }}" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h2 class="featurette-heading">Scratch, le logiciel ludique pour apprendre à coder <span class="text-muted"></span></h2>
+            <p class="lead">Nous apprenions aux enfants à utiliser Scratch. C'est un outil qui permet de construire du code très simplement comme un jeu de construction. Il permet aux enfants de réaliser toutes leurs idées tout en apprenant sans s'en rendre compte les bases de l'algorithmie.
+                De plus, Scratch permet de partager ses créations en ligne et de créer des espaces de travail commun, ce qui rend l'expérience des ateliers encore plus riches car les enfants peuvent jouer aux jeux de leurs amis!		  <br/>
+                <a href="https://scratch.mit.edu/projects/99517136/">Un exemple de jeu réalisé sous Scratch par un parcicipant aux ateliers</a></p>
+        </div>
+        <div class="col-md-5">
+            <img class="featurette-image img-responsive center-block" src="{{ asset('img/scratch.jpg') }}" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+        <div class="col-lg-4">
+            <img class="img-circle" src="{{ asset('img/logo.png') }}" alt="Generic placeholder image" width="140" height="140">
+            <h2>Make IT Magic</h2>
+            <p>L'objectif du projet Make IT Magic est d'apporter la programmation et la création numérique à tous gratuitement. Sa premiere édition qui a eu lieu pendant l'année scolaire 2015-2016 comportait 10 membres. Grâce à eux, 5 ateliers dans 3 médiathèques différentes fûrent organisés. Finalement, plus de 35 enfants ont pu découvrir grâce à nous la programmation en s'amusant.</p>
+            <p><a class="btn btn-default"  role="button" href="http://wwwassos.minet.net/~makeitmagic/" target="_blank">En savoir plus sur Make IT Magic &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+            <img class="img-circle" src="{{ asset('img/mm.jpg') }}" alt="Generic placeholder image" width="140" height="140">
+            <h2>Magic Makers</h2>
+            <p>La startup Magic Makers organise des ateliers de programmation pour les jeunes dans toute la région parisienne. Dans un souci de réduire la fracture numérique entre Paris et sa banlieue, Magic Makers a formé les membres du projet Make IT Magic à l'animation d'ateliers et les a conseillé tout au long du projet. </p>
+            <p><a class="btn btn-default" href="http://magicmakers.fr" role="button" target="_blank">En savoir plus sur Magic Makers &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+            <img class="img-circle" src="{{ asset('img/gate.jpg') }}" alt="Generic placeholder image" width="140" height="140">
+            <h2>GATE</h2>
+            <p>Les projets GATE (Gestion et Apprentissage du Travail en Equipe) sont des projets de groupe réalisés par les étudiants de premiere année de Télécom Sudparis. Leur but premier est la pédagogie par projet. Les élèves doivent mener à bien un projet de groupe en un an. C'est grâce à cette impulsion qu'a vu le jour le projet Make IT Magic.</p>
+            <p><a class="btn btn-default" href="http://gate.wp.telecom-sudparis.eu" role="button" target="_blank">En savoir plus sur GATE &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+
+    </div><!-- /.row -->
+
+
+
+</div><!-- /.container -->
+
+
+
+{% endblock %}

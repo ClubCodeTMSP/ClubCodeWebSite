@@ -41,4 +41,15 @@ class DefaultController extends Controller
     {
         return $this->render('default/calendrier.html.twig');
     }
+
+    /**
+     *
+     *  @Route("/soirees_code", name="soirees_code_show")
+     *
+     * @return \Symfony\Component\HttpFoundation\Response
+     */
+    public function showSoireeCode()
+    {
+        return $this->render('activities/soirees_code/index.html.twig');
+    }
 }

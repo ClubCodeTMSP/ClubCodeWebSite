@@ -37,16 +37,18 @@
                                 <span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li><a href="{{ path('ateliers_show') }}">Ateliers »</a></li>
-                                <li><a href="{# {{ path('') }}#}">Les soirées Code »</a></li>
+                                <li><a href="{{ path('soirees_code_show') }}">Les soirées Code »</a></li>
                             </ul>
                         </li>
-                        <li class="tab dropdown" id="projets"><a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projets
-                                <span class="caret"></span></a>
+                        <li class="tab dropdown" id="projets">
+                            <a href="{{ path('projects_index_show') }}">Projets</a>
+                             <!--   <span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li><a href="{# {{ path('') }}#}">Boîte à idées »</a></li>
-                                <li><a href="{# {{ path('') }}#}">Projets »</a></li>
-                            </ul>
+                                <li><a href="">Projets »</a></li>
+                            </ul> -->
                         </li>
+                        <li class="tab"><a href="{# {{ path('' }}#}">Contact</a></li>
                         <li class="tab"><a href="{# {{ path('') }}#}"><span class="glyphicon glyphicon-lock"></span></a></li>
                     </ul>
                 </div>
@@ -68,7 +70,7 @@
                 <p class="pull-right">
                     <a href=""><span class="glyphicon glyphicon-menu-up"></span></a>
                 </p>
-                <img src="{{ asset('./img/logo_TSP_TEM.jpg')}}" alt="" />
+                <img src="{{ asset('img/logo_TSP_TEM.jpg')}}" alt="" />
                 <p>© 2016 Club Code - Tous droits réservés</p>
             </div>
         </footer>

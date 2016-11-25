@@ -1,0 +1,27 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+<div class="container">
+    <div class="panel panel-primary">
+        <div class="panel-heading"><h2>Année 2016-2017</h2></div>
+        <div class="panel-body">
+            <ul>
+              <!--  <li><a href="">Mise en place d'un GitLab</a></li> -->
+                <li><a target="_blank" href="">Amélioration du site web Gate</a></li>
+                <li><a target="_blank" href="">Développement d'un application pour la gestion des ateliers</a></li>
+                <li><a target="_blank" href="">Conférence "Le Code sans Code"</a></li>
+                <li><a target="_blank" href="">Meet-Up</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="panel panel-primary">
+        <div class="panel-heading"><h2>Année 2015-2016</h2></div>
+        <div class="panel-body">
+            <ul>
+                <li><a target="_blank" href="{{ path('project_show', {'slug': 'Notre_Site_Web', 'year': 2016}) }}">Développement du Site Web</a></li>
+                <li><a target="_blank" href="{{ path('project_show', {'slug': 'Make_IT_Magic', 'year': 2016}) }}">MakeITMagic</a></li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+{% endblock %}
