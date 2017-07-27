@@ -1,4 +1,4 @@
-ClubCodeSiteWeb
+ClubCodeWebSite
 ===============
 
 A Symfony project.
